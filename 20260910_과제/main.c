@@ -11,14 +11,14 @@ int main() {
 
 void runCafeProgram() {
 	int choice = 0;
-	int totalPrice = 0;
+	int totalPrice = 0; // 총 금액을 저장하는 변수
 
 	printMenu();
-
+	// 원하는 만큼 수량을 담기 위한 반복문
 	while (1) {
 		printf("메뉴를 선택해주세요:");
 		scanf("%d", &choice);
-
+		// switch-case 문을 이용한 선택 처리
 		switch (choice) {
 		case 1:
 			printf("아메리카노를 선택하셨습니다. (3,000원)\n\n");
@@ -62,6 +62,7 @@ void runCafeProgram() {
 	}
 }
 
+// 메뉴판 출력 함수 (메뉴와 가격을 표시)
 void printMenu() {
 	printf("=== 메뉴 ===\n");
 	printf("1. 아메리카노 (3,000원)\n");
