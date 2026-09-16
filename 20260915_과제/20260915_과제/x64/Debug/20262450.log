@@ -1,3 +1,0 @@
-﻿  5_이현동_2026245039.c
-C:\Users\lhd07\OneDrive\Desktop\프실\20260915_과제\5_이현동_2026245039.c(21,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  20262450.vcxproj -> C:\Users\lhd07\OneDrive\Desktop\프실\20260915_과제\x64\Debug\20260915_과제.exe
